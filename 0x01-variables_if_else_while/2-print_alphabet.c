@@ -2,17 +2,17 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: Use `putchar` function to print alphabets.
+ * Description: Using 'putchar' to print alphabets
  * Return: 0
  */
 int main(void)
 {
-	char c = 'a';
+	char x ='a';
 
-	while (c <= 'z')
+	while (x <= 'z')
 	{
-		putchar(c);
-		c++;
+		putchar(x);
+		x++;
 	}
 	putchar('\n');
 	return (0);
