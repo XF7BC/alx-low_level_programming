@@ -8,9 +8,9 @@
 void print_alphabet_x10(void)
 {
 	int a = 97;
-	unsigned int i;
+	int i = 1;
 
-	for (i = 0; i <= 10; i++)
+	while (1 <= 10)
 	{
 		while (a <= 122)
 		{
@@ -19,5 +19,6 @@ void print_alphabet_x10(void)
 		}
 
 		_putchar('\n');
+		i++;
 	}
 }
