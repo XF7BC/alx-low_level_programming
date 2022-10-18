@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-        char x[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
-        unsigned int i;
-        
-        for (i = 0; i < sizeof(x); i++)
-        {
-                putchar(x[i]);
-        }
-        putchar('\n');
-        
-        return(0);
+	char x[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	unsigned int i;
+
+	for (i = 0; i < sizeof(x); i++)
+	{
+		putchar(x[i]);
+	}
+	putchar('\n');
+
+	return (0);
 }
   
